@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2nd Page</title>
+</head>
+<body>
+    <h1>
+        Hey! You went to the 2nd page!
+    </h1>
+    <p>
+        This page contains audios, videos, text styles, and lists.
+    </p>
+    <br>
+    <audio controls src="audios/no_meowses.mp3"></audio> <!--basic setup for audio files-->
+    <audio autoplay src="audios/no_meowses.mp3"></audio> <!--for background autoplay, u can still add controls attribute to it-->
+    <audio muted src="audios/no_meowses.mp3"></audio> <!--have it muted at first-->
+    <audio loop src="audios/no_meowses.mp3"></audio> <!--have it loop-->
+    <br>
+    <audio>
+        <source src="audios/no_meowses.mp3">
+        <source src="audios/no_meowses.wav">
+        Fuck your client. Shit don't support HTML5 audio.
+    </audio> <!--nested audio sources for different audio types-->
+    <hr>
+    <video controls src="videos/green.mp4" width="600"></video> <!--this follow along the same attributes and nesting as audios-->
+    <hr>
+    <p>Normal text</p>
+    <p><b>Bold</b></p>
+    <p><i>Italics</i></p>
+    <p><big>BEEG</big></p>
+    <p><small>smol</small></p>
+    <p><sub>subscripted</sub></p>
+    <p><sup>superscripted</sup></p>
+    <p><del>strikethroughed</del></p>
+    <p><mark>highlighted</mark></p>
+    <hr>
+    <h1>This is an unordered list</h1>
+    <ul>
+        <li>A little bit taller</li>
+        <li>A baller</li>
+        <li>A rabbit in a hat</li>
+    </ul>
+    <h1>This is an ordered list</h1>
+    <ol type="I"> <!--we can use this type attribute to change the element of the list. by default it is numbers-->
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ol>
+    <h1>This is a description list</h1>
+    <dl>
+        <dt>This is the description title</dt>
+        <dd>this is the description itself</dd>
+        <dt>This is the description title</dt>
+        <dd>this is the description itself, part 2</dd>
+    </dl>
+    <h1>This is an unordered list with a nested list</h1>
+    <ul>
+        <li>Sino ang nagshoplift
+            <ul>
+                <li>Ikaw</li>
+                <li>Siya</li>
+                <li>Si Vice Ganda</li>
+                <li>Regine Velasquez</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
