@@ -9,6 +9,7 @@ body{
     justify-content: center;
     column-gap: 10px;
     row-gap: 10px;
+    
     margin: 10px;
 }
 
@@ -29,7 +30,7 @@ body{
     margin: 5px auto;
     padding: 10px 20px;
     max-width: 600px;
-    width: 100%;
+    width: 90%;
 }
 
 .titleside {
